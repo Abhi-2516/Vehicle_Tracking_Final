@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #3b82f6, #bfdbfe); /* from-blue-500 to-blue-200 */
+    color: black;
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .navbar-links a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .logout-button {
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+    font: inherit;
+  }
+  
